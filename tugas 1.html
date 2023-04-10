@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">nikolas </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">ayam</a></li>
+        <li><a href="#">bebek</a></li>
+        <li><a href="#">ikan </a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="container">
+  <h2>Carousel </h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="ha.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="hi.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="jumbotron text-center">
+<blockquote>
+<p>the key of success is never steal someone work</p>
+<footer>From nicholas sachio</footer>
+<button type="button" class="btn btn-default">happy</button>
+</blockquote>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>ayam</h3>
+        <p>Ayam (Gallus gallus domesticus) adalah binatang unggas yang biasa dipelihara untuk dimanfaatkan daging, telur, dan bulunya. </p>
+        
+      </div>
+      <div class="col-sm-4">
+        <h3>bebek</h3>
+        <p>Bebek atau itik adalah nama umum untuk beberapa spesies burung dalam famili Anatidae.</p>
+      
+      </div>
+      <div class="col-sm-4">
+        <h3>ikan</h3>        
+        <p>Ikan adalah anggota vertebrata poikilotermik (berdarah dingin)[1] yang hidup di air dan bernapas dengan insang.</p>
+       
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">hewan favorite
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#"> ayam </a></li>
+      <li><a href="#">bebek</a></li>
+      <li><a href="#">ikan</a></li>
+    </ul>
+  </div>
+</body>
+</html>
